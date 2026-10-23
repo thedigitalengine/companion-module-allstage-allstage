@@ -1,0 +1,37 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "allstage-allstage",
+	"name": "allstage-allstage",
+	"shortname": "AllStage",
+	"description": "Control AllStage live-performance software over OSC",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-allstage-allstage.git",
+	"bugs": "https://allstage.io/support",
+	"maintainers": [
+		{
+			"name": "The Digital Engine",
+			"email": "support@allstage.io"
+		}
+	],
+	"runtime": {
+		"type": "node26",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "AllStage",
+	"products": [
+		"AllStage"
+	],
+	"keywords": [
+		"show control",
+		"playback",
+		"lighting",
+		"OSC",
+		"live performance",
+		"setlist"
+	]
+}
